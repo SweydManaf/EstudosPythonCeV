@@ -1,0 +1,11 @@
+print('===== \033[34mDESAFIO 04\033[m =====')
+
+valor = input('Digite algo:\033[33m ')
+print('\033[mO tipo primitivo desse valor e ', type(valor))
+print('So tem espacos? ', valor.isspace())
+print('E um numero? ', valor.isnumeric())
+print('E um alfabetico? ', valor.isalpha())
+print('E um alfanumerico? ', valor.isalnum())
+print('Esta em maiusculas? ', valor.isupper())
+print('Esta em minusculas? ', valor.islower())
+print('Esta capitalizada? ', valor.istitle())
